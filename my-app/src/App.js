@@ -38,6 +38,8 @@ function App() {
       <div><hr className='hrv' /></div>
 
       <Fragment>
+        <h1 className='App'>Traitement de fichier json : </h1> <hr/>
+        
         <ul>
           {data.map(item => (
             <li key={item.id}>
